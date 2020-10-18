@@ -37,9 +37,6 @@ const skills = () => {
                     <Skillcard title="Control Version"/>
                     <Skillcard title="Lets C"/>
                     
-                 
-
-
                 </div>
             </div>
         </div>

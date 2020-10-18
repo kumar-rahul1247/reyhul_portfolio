@@ -4,7 +4,7 @@ import HomeCSS from './home.module.css';
 const Home = () => {
  
     return (
-        <div className={HomeCSS.home}>
+        <div className={HomeCSS.home} id="home">
             <div className={HomeCSS.max_width}>
                 <div className={HomeCSS.home_content}>
                     <div className={HomeCSS.text_1}>Hi, My name is</div>
