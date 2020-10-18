@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  src: url('https://fonts.googleapis.com/css2?family=Itim&family=Josefin+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+  font-family: 'Itim', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* @font-face{
+  src: url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+  font-family: 'Itim', cursive;
+} */
+
+.max_width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+
+@media (max-width: 1104px){
+  .max_width{
+      margin-left: 0px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+@media (max-width: 990px){
+  .max_width{
+      padding: 0px 50px;
+      margin: auto;
+  }
+
+
+.column_left{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 auto 60px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.column_right{
+  flex: 100%;
+    
   }
-  to {
-    transform: rotate(360deg);
+
+
+}
+
+@media (max-width: 690px){
+  .max_width{
+      padding: 0px 23px;
   }
 }

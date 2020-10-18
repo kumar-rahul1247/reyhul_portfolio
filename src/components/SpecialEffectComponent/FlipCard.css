@@ -1,0 +1,110 @@
+.profileDP{
+    width: 300px;
+    height: 400px;
+}
+
+.flip_card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: 0.5s;
+}
+
+.flip_card .front{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transition: 0.5s;
+}
+
+.flip_card:hover .front{
+    transform: rotateY(-180deg);
+}
+
+.flip_card .back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: 0.5s;
+}
+
+.flip_card:hover .back{
+    transform: rotateY(0deg);
+}
+
+.flip_card .back .detail{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+    z-index: 99;
+}
+
+.flip_card .back .detail h2{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.flip_card .back .detail h2 span{
+    color: #a7a7a7;
+    font-size: 16px;
+}
+
+.social_icons{
+    margin-top: 20px;
+    padding: 10px 0px;
+    
+    
+}
+
+.social_icons a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    background: #262626;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: 0.5s;
+    padding-top: 5px;
+    margin-left: 5px;
+    
+}
+
+.social_icons a:hover{
+    background: crimson;
+    
+}
+
+.back::after{
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: 50%;
+    height: 100%;
+    border-right: none;
+    background: rgba(255, 255, 255, 0.1);
+}

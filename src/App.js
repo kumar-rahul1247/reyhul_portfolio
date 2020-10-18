@@ -1,24 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/navbar/navbar';
+import Home from './containers/home/home';
+import About from './containers/about/about';
+import Skills from './containers/skills/skills';
+import Projects from './containers/projects/projects';
+
+import WavyCard from "./components/SpecialEffectComponent/WavyCard";
+import FlipCard from "./components/SpecialEffectComponent/FlipCard";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Projects/>
+      {/* <WavyCard /> */}
+      <div style={{ position: 'relative', margin: 200 }}>
+        {/* <FlipCard/> */}
+       
+      </div>
+
+
+      {/* <Skillbar name="React" percent="95%" percentToshow/>
+      <WavyCard/> */}
     </div>
   );
 }
