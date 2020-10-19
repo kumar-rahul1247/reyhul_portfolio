@@ -2,7 +2,7 @@
 
 .skill_card{
     
-    width: 300px;
+    width: 360px;
     height: 400px;
     transform-style: preserve-3d;
     perspective: 600px;
@@ -35,19 +35,20 @@
 .skill_card .skill_front h2{
     color: white;
     text-align: center;
-    padding-top: 10px;   
+    padding-top: 20px;   
 }
 
 .skill_card .skill_front .skill_content{
     width: fit-content;
     margin-top: 30px;
-    padding: 0px 25px;
+    padding: 0px 45px;
+    
 }
 
 .skill_content .skill_item{
     display: flex;
     align-items: center;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
 }
 
 .skill_item p{
@@ -77,7 +78,7 @@
     left: 50%;
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 20px 10px;
     box-sizing: border-box;
     transform: translateX(-50%);
     z-index: 99;
@@ -131,4 +132,12 @@
     height: 100%;
     border-right: none;
     background:#5e5d5d1a;
+}
+
+.end_line{
+    margin: 40px auto; 
+    width: 80px;
+    height: 2px;
+    background-color: crimson;
+    
 }
