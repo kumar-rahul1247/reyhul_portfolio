@@ -3,6 +3,8 @@
     font-family: 'Ubuntu' sans-serif;
     margin: 0px auto;
     height: 100vh;
+    /* background: url("../../assets//about.jpg") no-repeat center;
+    background-size: 100%; */
 }
 
 .about .max_width{
@@ -96,12 +98,12 @@
     background-color: #fff;
 }
 
-.about_content img{
+/* .about_content img{
     height: 400px;
     width: 400px;
     border-radius: 6px;
     position: relative;
-}
+} */
 
 .profilePic{
     height: fit-content;

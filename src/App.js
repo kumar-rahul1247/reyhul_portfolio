@@ -9,7 +9,7 @@ import Contact from './containers/contacts/contacts';
 
 
 import WavyCard from "./components/SpecialEffectComponent/WavyCard";
-import FlipCard from "./components/SpecialEffectComponent/FlipCard";
+//import FlipCard from "./components/SpecialEffectComponent/FlipCard";
 
 
 

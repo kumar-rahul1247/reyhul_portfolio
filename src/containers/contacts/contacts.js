@@ -27,9 +27,11 @@ const Contacts = () => {
 
                         <div className="social_icons">
                             <a href="#"><FacebookIcon className="icon_ele" /></a>
-                            <a href="#"><GitHubIcon className="icon_ele" /></a>
+                            <a href="https://github.com/kumar-rahul1247" target="_blank">
+                                <GitHubIcon className="icon_ele" /></a>
                             <a href="#"><EmailIcon className="icon_ele" /></a>
-                            <a href="#"><LinkedInIcon className="icon_ele" /></a>
+                            <a href="https://www.linkedin.com/in/reyhul-codethedestiny/" target="_blank">
+                                <LinkedInIcon className="icon_ele" /></a>
 
                         </div>
                     </div>
