@@ -1,31 +1,31 @@
 .expandable_card{
     position: relative;
     width: 320px;
-    height: 220px;
+    max-height: 265px;
     background: #fff;
     margin: 30px 10px;
     padding: 10px 25px;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 5px 202px rgba(0, 0, 0, 0.5);
-    transition: 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     border-radius: 0px 0px 10px 10px;
 }
 
 .expandable_card:hover{
-    height: 420px;
+    max-height: 500px;
 }
 .expandable_card .imgBox{
-    position: relative;
+    /* position: relative; */
     width: 270px;
-    height: 270px;
-    top: -60px;
+    /* height: 270px; */
+    margin-top: -60px;
     z-index: 1;
 }
 
 .expandable_card .imgBox img{
    max-width: 100%;
-   border-radius: 5px;
+   border-radius: 10px;
 }
 
 .project_heading{
@@ -33,10 +33,13 @@
     padding-bottom: 5px;
     border-bottom: 1px solid rgb(217, 222, 228);
 }
+.expandable_card:hover .project_heading h3{
+    color: crimson;
+}
 
 .expandable_card .card_content{
-    position: relative;
-    margin-top: -70px;
+    /* position: relative;
+    margin-top: -70px; */
     padding: 20px 0px;
     text-align: center;
     visibility: hidden;
@@ -46,7 +49,7 @@
 }
 
 .expandable_card:hover .card_content{
-    margin-top: -70px;
+    /* margin-top: -70px; */
     visibility: visible;
     opacity: 1;
     height: fit-content;
@@ -56,7 +59,7 @@
 }
 
 .project_link{
-    margin-top: 40px;
+    margin-top: 20px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -68,7 +71,7 @@
 .project_link > li{
     list-style: none;
     display: inline-block;
-    min-width: 120px;
+    min-width: 120px;  
     color: white;
     height: 30px;
     border-radius: 10px; 
@@ -77,6 +80,16 @@
     font-weight: bold;
     transition: all 0.3s ease-in;
 }
+.project_link > li>a{
+    color: white;
+}
+
+.project_link > li:hover >a{
+    color: white;
+    color: rgb(212, 41, 76);
+}
+
+
 
 .project_link > li:hover{
     background: transparent;
