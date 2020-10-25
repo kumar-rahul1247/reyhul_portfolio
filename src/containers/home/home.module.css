@@ -18,14 +18,53 @@
 }
 
 .text_1{
-    font-size:27px;
-    
+    font-size:27px;  
+    position: relative; 
+    width: fit-content;
+}
+
+.text_1::before{
+    content: '';
+    height: 100%;
+    /* width: 100%; */
+    position: absolute;
+    right: 0%;
+    background: crimson;
+    /* background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%); */
+    animation: animate1 1.5s ease-out;
+}
+
+@keyframes animate1{
+    0%{
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
 }
 
 .text_2{
     font-size: 70px;
-    font-weight: 700;
-    margin-left: -3px;
+    font-weight: 700;    
+    position: relative;
+}
+
+.text_2::before{
+    content: ' ';
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
+    animation: animate 3.5s linear forwards;
+}
+
+@keyframes animate{
+    0%{
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
 }
 
 .text_3{

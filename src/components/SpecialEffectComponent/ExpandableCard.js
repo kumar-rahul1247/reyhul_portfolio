@@ -1,12 +1,12 @@
 import React from 'react';
 import './ExpandableCard.css';
-import ProfilePic from '../../assets/reyh_pic.jpg'
+
 
 const ExpandableCard = ({ projectDetail }) => {
     return (
         <div className="expandable_card">
             <div className="imgBox">
-                <img src={ProfilePic} alt=""/>
+                <img src={projectDetail.image} alt=""/>
                 <div className="project_heading">
                 <h3>{projectDetail.name}</h3>
                 <p>{projectDetail.tech}</p>

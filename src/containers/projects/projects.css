@@ -31,9 +31,9 @@
 }
 
 .projects .max_width .title::after{
-    content: ' who i am';
+    content: ' what i developed';
     position: absolute;
-    bottom: -12px; 
+    bottom: -10px; 
     font-size: 20px;
     color: crimson;
     padding: 5px;

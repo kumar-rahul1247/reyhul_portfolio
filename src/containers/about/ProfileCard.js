@@ -14,6 +14,7 @@ const FlipCard = () => {
             <div className="profile_front"><img src={ProfilePic} alt="" className="profileDP"/></div>
             <div className="profile_back">
                 <div className="profile_detail">
+                    <img src={ProfilePic} alt=""/>
                     <h2>Rahul Kumar<br/><span>Full Stack Developer</span></h2>
                     <div className="profile_social_icons">
                         <a href="#"><FacebookIcon className="icon_ele"/></a>

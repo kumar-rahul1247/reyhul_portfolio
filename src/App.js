@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import Navbar from './components/navbar/navbar';
 import Home from './containers/home/home';
@@ -14,17 +14,18 @@ import WavyCard from "./components/SpecialEffectComponent/WavyCard";
 
 
 function App() {
+  
   return (
     <div className="App">
       <Navbar />
       <Home />
-      <About />
+      <About /> 
       <Skills />
       <Projects/>
       <Contact/>
       {/* <WavyCard /> */}
       <div style={{ position: 'relative'}}>
-        {/* <FlipCard/> */}
+      {/* <FlipCard/> */}
        
       </div>
 

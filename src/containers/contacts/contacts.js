@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './contact.css'
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -8,6 +8,35 @@ import CallIcon from '@material-ui/icons/Call';
 import HomeIcon from '@material-ui/icons/Home';
 
 const Contacts = () => {
+    
+    const [status, setStatus] = useState("");
+
+    let submitForm = (ev) =>{
+        ev.preventDefault();
+        const form = ev.target;
+        console.log("ji")
+        console.log(form.action)
+        const data = new FormData(form);
+        const xhr = new XMLHttpRequest();
+        xhr.open(form.method, "https://formspree.io/f/xrgoqvz"); 
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.onreadystatechange = () => {
+          if (xhr.readyState !== XMLHttpRequest.DONE) return;
+          if (xhr.status === 200) {
+            form.reset();
+            setStatus("SUCCESS");
+          } else {
+            setStatus("ERROR");
+
+          }
+
+          setTimeout(function(){ setStatus("") }, 3000);
+        };
+         xhr.send(data);
+      }
+    
+      console.log(status)
+
     return (
         <div className="contact" id="contact">
             <div className="max_width">
@@ -36,7 +65,7 @@ const Contacts = () => {
                         </div>
                     </div>
 
-                    <form method="post">
+                    <form method="post" onSubmit={submitForm}>
                         <div className="contact_form">
                             <h2>Send Me Message</h2>
                             <div className="check">
@@ -52,8 +81,14 @@ const Contacts = () => {
                             <div>
                                 <textarea name="message" placeholder="Please write Your Message.." />
                             </div>
+                            {
+                                status 
+                                ? status === "SUCCESS" 
+                                    ? <p style={{color: "green"}}>Successfully Sent..!!</p> 
+                                    : <p style={{color: "red"}}>Error while Processing..!!</p>
+                                : <button type="submit">Send </button>
+                            }
                             
-                            <button type="submit">Send </button>
                             
                            
 

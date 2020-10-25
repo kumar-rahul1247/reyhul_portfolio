@@ -8,12 +8,12 @@ import ReactRouterLogo from "../../assets/react-router.svg";
 import ReactBootstrapLogo from "../../assets/react-bootstrap.svg";
 
 
-
 //backend
 
 import JavaLogo from "../../assets/javaLogo.png";
 import ExpressLogo from "../../assets/express.png";
 import NodejsLogo from "../../assets/nodejs.svg";
+import RESTLogo from "../../assets/RESTLogo.png";
 
 
 //mobile
@@ -93,6 +93,11 @@ allskills.BackEnd=[
         name:"Core Java",
         logo:JavaLogo,
         percentage: "89%"
+    },
+    {
+        name:"REST API",
+        logo:RESTLogo,
+        percentage: "92%"
     }
 ]
 
