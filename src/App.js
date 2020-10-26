@@ -8,30 +8,25 @@ import Projects from './containers/projects/projects';
 import Contact from './containers/contacts/contacts';
 
 
-import WavyCard from "./components/SpecialEffectComponent/WavyCard";
-//import FlipCard from "./components/SpecialEffectComponent/FlipCard";
+import ParticleEffect from "./components/SpecialEffectComponent/ParticleEffect";
 
-
+import Particles from "react-tsparticles";
 
 function App() {
   
   return (
     <div className="App">
-      <Navbar />
+      {/* <ParticleEffect/> */}
+      
+        <Navbar />
       <Home />
       <About /> 
       <Skills />
       <Projects/>
       <Contact/>
-      {/* <WavyCard /> */}
-      <div style={{ position: 'relative'}}>
-      {/* <FlipCard/> */}
-       
-      </div>
+      
 
-
-      {/* <Skillbar name="React" percent="95%" percentToshow/>
-      <WavyCard/> */}
+      
     </div>
   );
 }

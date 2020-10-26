@@ -6,6 +6,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import CallIcon from '@material-ui/icons/Call';
 import HomeIcon from '@material-ui/icons/Home';
+// import ParticleEffect from "../../components/SpecialEffectComponent/ParticleEffect";
 
 const Contacts = () => {
     
@@ -39,6 +40,7 @@ const Contacts = () => {
 
     return (
         <div className="contact" id="contact">
+            {/* <ParticleEffect/> */}
             <div className="max_width">
                 <h2 className="title">Contact</h2>
                 <div className="contact_content">

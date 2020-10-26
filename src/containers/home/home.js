@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import HomeCSS from './home.module.css';
 import Typewriter from 'typewriter-effect';
-
-let startTyping = false;
-
-setTimeout(() => { startTyping = true }, 5500);
+// import Particles from 'react-particles-js';
+import ParticleEffect from "../../components/SpecialEffectComponent/ParticleEffect";
 
 const Home = () => {
 
@@ -27,6 +25,7 @@ const Home = () => {
     }
     return (
         <div className={HomeCSS.home} id="home">
+            <ParticleEffect/>
             <div className={HomeCSS.max_width}>
                 <div className={HomeCSS.home_content}>
                     <div className={HomeCSS.text_1}>Hi, My name is</div>
@@ -40,6 +39,7 @@ const Home = () => {
                 </div>
 
             </div>
+            
         </div>
     )
 }

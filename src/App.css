@@ -18,10 +18,15 @@
   font-family: 'Itim', cursive;
 } */
 
+.App{
+  position: relative;
+}
+
 .max_width{
   max-width: 1300px;
   padding: 0 80px;
   margin: auto;
+  z-index: 90
 }
 
 

@@ -6,6 +6,7 @@
     color: #fff;
     min-height: 500px;
     font-family: 'Itim', cursive;
+    z-index:888;
 }
 
 .max_width{
@@ -16,6 +17,7 @@
 
 .home .max_width{
     margin: auto 0 auto 40px;
+    position: relative;
 }
 
 .text_1{

@@ -2,6 +2,7 @@ import React from 'react'
 import './skills.css';
 import Skillcard from './skillcard';
 import {allskills} from './allskills';
+import ParticleEffect from "../../components/SpecialEffectComponent/ParticleEffect";
 
 const skills = () => {
 
@@ -15,6 +16,8 @@ const skills = () => {
 
     return (
         <div className="skills" id="skills">
+            {/* <ParticleEffect/> */}
+      
             <div className="max_width">
                 <h2 className="title">Tech Skills</h2>
                 <div className="skills_content">

@@ -2,6 +2,7 @@
     padding-top: 80px;
     font-family: 'Ubuntu' sans-serif;
     margin: 0px auto;
+    z-index:888;
 }
 
 .projects .max_width{
