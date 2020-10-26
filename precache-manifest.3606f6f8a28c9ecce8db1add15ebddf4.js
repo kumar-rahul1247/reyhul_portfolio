@@ -1,27 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d5271f00ec98e94c1e8f6ce252e47026",
+    "revision": "6c4054b0cda9b1ab2ac8e6d69ac397a1",
     "url": "/reyhul_portfolio/index.html"
   },
   {
-    "revision": "1698f2a9f44bb28ae84d",
-    "url": "/reyhul_portfolio/static/css/main.818c231b.chunk.css"
+    "revision": "39e51bf91b7b4bd2507a",
+    "url": "/reyhul_portfolio/static/css/main.192f3b78.chunk.css"
   },
   {
-    "revision": "6897035d1e265e5e583d",
-    "url": "/reyhul_portfolio/static/js/2.bdd7446a.chunk.js"
+    "revision": "b67838f30e9e92456c7b",
+    "url": "/reyhul_portfolio/static/js/2.83409790.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/reyhul_portfolio/static/js/2.bdd7446a.chunk.js.LICENSE.txt"
+    "url": "/reyhul_portfolio/static/js/2.83409790.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1698f2a9f44bb28ae84d",
-    "url": "/reyhul_portfolio/static/js/main.62fd9a20.chunk.js"
+    "revision": "39e51bf91b7b4bd2507a",
+    "url": "/reyhul_portfolio/static/js/main.20034062.chunk.js"
   },
   {
     "revision": "623c2654e1631e545b7e",
     "url": "/reyhul_portfolio/static/js/runtime-main.72f8b4cc.js"
+  },
+  {
+    "revision": "b1bc2ff6005df2b7b8a972e8e8ad2a62",
+    "url": "/reyhul_portfolio/static/media/BurgerBuilder.b1bc2ff6.PNG"
+  },
+  {
+    "revision": "12ef54ad408f9bf8ffcd226c173a02f1",
+    "url": "/reyhul_portfolio/static/media/Clickza.12ef54ad.PNG"
+  },
+  {
+    "revision": "1d1d46d900ed5dd991691255726f459a",
+    "url": "/reyhul_portfolio/static/media/InstagramCloneImg.1d1d46d9.PNG"
+  },
+  {
+    "revision": "1955a6144cb74848339ba67a7a6179bc",
+    "url": "/reyhul_portfolio/static/media/Portfolio.1955a614.PNG"
+  },
+  {
+    "revision": "63e017356e3be36d77b7e36bbcb2f026",
+    "url": "/reyhul_portfolio/static/media/YoutubeCloneImg.63e01735.PNG"
   },
   {
     "revision": "3707da3c6a394c7ee2523273f8d98a25",
