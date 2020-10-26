@@ -4,7 +4,9 @@
     margin: 0px auto;
     min-height: 100vh;
     /* background: url("../../assets//about.jpg") no-repeat center;
-    background-size: 100%; */
+    background-size: 100%;  */
+    background-color: wheat;
+    background-attachment: fixed;
 }
 
 .about .max_width{
@@ -70,6 +72,11 @@
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+  
+}
+
+.column_right .text div:nth-child(2){
+    display: flex;
 }
 
 .column_right .text span{

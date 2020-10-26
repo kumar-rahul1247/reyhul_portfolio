@@ -1,7 +1,7 @@
 import React from 'react';
-import About from './about.css'
-import ProfilePic from '../../assets/reyh_pic.jpg'
+import About from './about.css';
 import FlipCard from './ProfileCard'
+import Typewriter from 'typewriter-effect';
 const about = () => {
     return (
         <div className="about" id="about">
@@ -16,7 +16,16 @@ const about = () => {
                         
                     </div>
                     <div className="column_right">
-                        <div className="text">Hello, I'm Rahul And <br></br> I'm a <span>Developer</span></div>
+                        <div className="text">
+                            <div>Hello, I'm Rahul And </div>
+                            <div>I'm a&nbsp;<span><Typewriter options={{
+                                strings: ['Developer','Quick Learner', 'Problem Solver'],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        /></span></div> 
+                            
+                        </div>
                         <p>Passionate to solve real world problem by utilizing all my skills and ideas to provide effective outcome.
                             I love to code and solve Problem by taking Challenges and participating in different Coding Contest.
                             Algorithm and Data Structure is my prime focus of interest which boost me in free time.

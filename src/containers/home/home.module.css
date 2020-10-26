@@ -1,6 +1,7 @@
 .home{
     display: flex;
     background: url('../../assets/reyh_pic.jpg');
+    background-attachment: fixed;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -21,6 +22,7 @@
     font-size:27px;  
     position: relative; 
     width: fit-content;
+    
 }
 
 .text_1::before{
@@ -31,14 +33,18 @@
     right: 0%;
     background: crimson;
     /* background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%); */
-    animation: animate1 1.5s ease-out;
+    animation: animate1 2.5s ;
+    
 }
 
 @keyframes animate1{
     0%{
         width: 100%;
     }
-    100% {
+    70%{
+        width: 10%; 
+    }
+    100%{
         width: 0%;
     }
 }
@@ -49,18 +55,21 @@
     position: relative;
 }
 
+
 .text_2::before{
     content: ' ';
     height: 100%;
+    width: 120%;
     position: absolute;
     right: 0%;
     background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
-    animation: animate 3.5s linear forwards;
+    animation: animate 2.5s linear forwards;
+    animation-delay: 2.5s;
 }
 
 @keyframes animate{
     0%{
-        width: 100%;
+        width: 120%;
     }
     100% {
         width: 0%;
@@ -70,7 +79,19 @@
 .text_3{
     font-size: 36px;
     margin: 5px 0;
-    
+    display: flex;  
+    position: relative;  
+}
+
+.text_3::before{
+    content: ' ';
+    height: 100%;
+    width: 120%;
+    position: absolute;
+    right: 0%;
+    background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
+    animation: animate 3.5s linear forwards;
+    animation-delay: 5s;
 }
 
 .text_3 span{
