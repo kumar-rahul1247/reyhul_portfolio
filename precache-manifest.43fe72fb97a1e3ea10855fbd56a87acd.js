@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c4054b0cda9b1ab2ac8e6d69ac397a1",
+    "revision": "9aa7c7696f56e8043537fab9c4deccef",
     "url": "/reyhul_portfolio/index.html"
   },
   {
-    "revision": "39e51bf91b7b4bd2507a",
-    "url": "/reyhul_portfolio/static/css/main.192f3b78.chunk.css"
+    "revision": "6da9570c87a08c9435d4",
+    "url": "/reyhul_portfolio/static/css/main.b52270ef.chunk.css"
   },
   {
-    "revision": "b67838f30e9e92456c7b",
-    "url": "/reyhul_portfolio/static/js/2.83409790.chunk.js"
+    "revision": "7c2fdc0ff94a8511fd74",
+    "url": "/reyhul_portfolio/static/js/2.ea5f0df6.chunk.js"
   },
   {
-    "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/reyhul_portfolio/static/js/2.83409790.chunk.js.LICENSE.txt"
+    "revision": "68ba00d5eb083746d913686923a3d904",
+    "url": "/reyhul_portfolio/static/js/2.ea5f0df6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "39e51bf91b7b4bd2507a",
-    "url": "/reyhul_portfolio/static/js/main.20034062.chunk.js"
+    "revision": "6da9570c87a08c9435d4",
+    "url": "/reyhul_portfolio/static/js/main.ae10864e.chunk.js"
   },
   {
     "revision": "623c2654e1631e545b7e",
