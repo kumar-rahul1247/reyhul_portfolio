@@ -1,6 +1,5 @@
 #skills{
-    background: #202020;
-    
+    background: #202020;   
     padding-top: 80px;
     font-family: 'Ubuntu' sans-serif;
     margin: 0px auto;
@@ -48,7 +47,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    align-content: space-between;
+   
 }
 
+
+@media (max-width: 1250px){
+
+   .skills_content{
+       justify-content: space-around;
+    }
+}
+@media (max-width: 850px){
+    .skills_content{
+        flex-direction: column;
+        align-items: center;
+    }
+}

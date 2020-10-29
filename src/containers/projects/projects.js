@@ -21,10 +21,10 @@ const Projects = () => {
             <div className="max_width" >
                 <h2 className="title">Projects</h2>
                 <div className="projects_content">
-                    <div style={{marginTop:50}}>
+                    <div>
                         {projectSeg1}
                     </div>
-                    <div style={{marginTop:250}}>
+                    <div>
                         {projectSeg2}
                     </div>
 

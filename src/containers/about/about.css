@@ -1,5 +1,6 @@
 .about{
     padding-top: 80px;
+    padding-bottom: 50px;
     font-family: 'Ubuntu' sans-serif;
     margin: 0px auto;
     min-height: 100vh;
@@ -137,10 +138,10 @@
         width: 50%;
     }
 
-    .about_content img{
+    /* .about_content img{
         height: 350px;
         width: 350px;
-    }
+    } */
 
 
 
@@ -150,14 +151,22 @@
 }
 
 @media (max-width: 990px){
-    .about_content img{
+    /* .about_content img{
         height: 320px;
         width: 320px;
+    } */
+
+    .text{
+        display: flex;
+        
     }
   
 }
 
-@media (max-width: 690px){
+@media (max-width: 600px){
+    .text{
+        display: block;
+    }
  
 }
 
