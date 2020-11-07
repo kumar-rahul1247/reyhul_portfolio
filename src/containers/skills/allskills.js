@@ -14,6 +14,8 @@ import JavaLogo from "../../assets/javaLogo.png";
 import ExpressLogo from "../../assets/express.png";
 import NodejsLogo from "../../assets/nodejs.svg";
 import RESTLogo from "../../assets/RESTLogo.png";
+import SpringLogo from "../../assets/springLogo.png";
+import HibernateLogo from "../../assets/hibernateLogo.png";
 
 
 //mobile
@@ -95,9 +97,19 @@ allskills.BackEnd=[
         percentage: "89%"
     },
     {
+        name:"Spring Boot",
+        logo:SpringLogo,
+        percentage: "89%"
+    },
+    {
         name:"REST API",
         logo:RESTLogo,
         percentage: "92%"
+    },
+    {
+        name:"Hibernate",
+        logo:HibernateLogo,
+        percentage: "84%"
     }
 ]
 
